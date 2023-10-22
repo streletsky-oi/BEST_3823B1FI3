@@ -1,11 +1,20 @@
 bool compare_double(double x, double y) {
-    return true; // Not implementation
+    const double epsilon = 1e-5;
+    return fabs(x - y) < epsilon;
+
 }
+
+
 
 int get_nearest_int(double x) {
-    return 0; // Not implementation
+    int get_nearest_int(double x);{
+    return (int)(x + 0.5); // Округляем до ближайшего целого числа
+    }
 }
 
-double get_fractional(double x) {
-    return 0.1; // Not implementation
+double get_fractional(double x){
+    
+    double get_fractional(double x);{
+    return x - floor(x); // Вычитаем целую часть числа, чтобы получить дробную часть
+    }
 }
