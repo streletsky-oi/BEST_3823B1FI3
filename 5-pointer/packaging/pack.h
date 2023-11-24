@@ -1,14 +1,20 @@
 #include <math.h>
 
 unsigned long long pack_ull(unsigned char arr[], int size){
-    unsigned long long answ;
-    int* p;
-    for (int i = 0; i < size; i++){
-        p = arr[i]
-    }
+    
 
 }
 
 unsigned char unpack_ull(unsigned long long input){
-    return 5;
+    unsigned long long n = input;
+    
+    
+    for (int i = 0; i < 8; i++){
+        char a = (char)n;
+        n = n >> 8;
+        if (i == 4){
+            return a;
+        }
+        
+    }
 }
