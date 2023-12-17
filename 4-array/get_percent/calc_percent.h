@@ -22,5 +22,5 @@ int calc_percent(int matrix[], int size){
         }
             
     }
-    return (count / sizef) * 100;
+    return (count / sizef) * 100;//up //cmm
 }
