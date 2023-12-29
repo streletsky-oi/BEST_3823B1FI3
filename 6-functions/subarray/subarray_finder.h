@@ -1,4 +1,5 @@
 #include <math.h>
+#include <string.h>
 int find_subarrayq(const int *a, size_t an, const int *b, size_t bn)
 {
     for (int i = 0; i <= an - bn; i++) 

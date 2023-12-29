@@ -1,4 +1,6 @@
 #include <math.h>
+#include <stdlib.h>
+
 
 int get_index(int i, int j, int colnum){
     return i * colnum + j;

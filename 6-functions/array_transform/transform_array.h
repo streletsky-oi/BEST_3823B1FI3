@@ -1,4 +1,5 @@
 #include <math.h>
+#include <stdio.h>
 double sum(double *arr, int size1){
     for (int i = 0; i < size1; i++){
         arr[i] += 1;
@@ -73,7 +74,7 @@ double izmen(double *arr, int size6){
     }
 }
 
-void transform(double* array, int size, int* comands, int comands_count){
+void transform(double* arr, int size, int* comands, int comands_count){
     
     
     
